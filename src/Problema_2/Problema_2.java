@@ -1,14 +1,14 @@
 
 package Problema_2;
 
-
 /**
- *@since  12/04/2015
- * @author Crazy
+ * @since  12/04/2015
+ * @author Albert Alvarez
  * @description:
- * Hacer un pseudocodigo que imprima los numeros del 100 al 0, en 
+ * Hacer un programa que imprima los numeros del 100 al 0, en 
  * orden decreciente.
  */
+
 public class Problema_2 {
  
     public static void main(String[] args){

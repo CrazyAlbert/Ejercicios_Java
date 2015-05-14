@@ -3,7 +3,7 @@ package Problemaa_32;
 import java.io.*;
 /**
  * @since 12/04/2015
- * @author Crazy
+ * @author Albert Alvarez
  * @description:
  * Hacer un programa que nos permita introducir un numero por teclado y sobre 
  * el se realicen las siguientes operaciones: comprobar si es primo, hallar su
@@ -28,11 +28,11 @@ static void calculo() throws IOException {
     numero = Integer.parseInt(read());
     System.out.println("Que desea Calcular : ");
     
-        Print3("1) Si es primo");
-        Print3("2) Su factorial");
-        Print3("3) Tabla de multiplicar");
-        Print3("4) Salir");
-        Print3("Ingrese una opcion : ");
+        Print1("1) Si es primo");
+        Print1("2) Su factorial");
+        Print1("3) Tabla de multiplicar");
+        Print1("4) Salir");
+        Print1("Ingrese una opcion : ");
         
     op = Integer.parseInt(read());
     
@@ -52,7 +52,7 @@ static void primo(int numero) throws IOException {
 		}
 	}
 System.out.println((primo) ? "El numero es primo !" : " El numero no es primo ! ");	
-Print3("Desea realizar otra operacion Si o No : ");
+Print1("Desea realizar otra operacion Si o No : ");
 Problema_32.op = (char) System.in.read();
 switch (op){
 	case 'y' : calculo();
@@ -67,7 +67,7 @@ while(temp > 0){
 	factorial *= temp--;
 }
 System.out.println(numero + "! = " +factorial);	
-Print3("Desea realizar otra operacion Si o No : ");
+Print1("Desea realizar otra operacion Si o No : ");
 Problema_32.op = (char) System.in.read();
  }
 static void tabla(int numero) throws IOException {
@@ -77,7 +77,7 @@ static void tabla(int numero) throws IOException {
 		System.out.println(numero + " * " + conta + " = " + (numero * conta++));
 
 	}
-	Print3("Desea realizar otra operacion : ");
+	Print1("Desea realizar otra operacion : ");
 	Problema_32.op = (char) System.in.read();
  }
 static void close(){

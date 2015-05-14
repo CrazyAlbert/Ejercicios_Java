@@ -3,11 +3,12 @@ package Problema_5;
 
 /**
  * @since 12/04/2015
- * @author Crazy
+ * @author Albert Alvarez
  * @description:
  * Hacer un programa que imprima los numeros impares hasta el 100 y que
  * imprima cuantos impares hay.
  */
+
 public class Problema_5 {
     public static void main(String[] args){
 		System.out.println("Numeros Impares y su conteo");

@@ -5,9 +5,9 @@ import java.util.Scanner;
 
 /**
  * @since 12/04/2015
- * @author Crazy
+ * @author Albert Alvarez
  * @description:
- * Hacer un pseudocodigo que imprima todos los numeros naturales que hay
+ * Hacer un programa que imprima todos los numeros naturales que hay
  * desde la unidad hasta un numero que introducimos por teclado.
  */
 

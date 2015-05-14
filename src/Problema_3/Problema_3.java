@@ -3,10 +3,11 @@ package Problema_3;
 
 /**
  * @since 12/04/2015
- * @author Crazy
+ * @author Albert Alvarez
  * @description:
- * Hacer un pseudocodigo que imprima los numeros pares entre 0 y 100.
+ * Hacer un programa que imprima los numeros pares entre 0 y 100.
  */
+
 public class Problema_3 {
     
     public static void main(String[] args) {

@@ -1,14 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Problema_1;
 
 /**
- *
- * @author Crazy
+ * @since  12/04/2015
+ * @author Albert Alvarez
+ * @description:
+ * Hacer un programa que imprima los numeros del 1 al 100.
  */
+
 public class Problema_1 {   
     public static void main(String[] args) {
          System.out.println("Numeros del 1 al 100: ");

@@ -23,7 +23,7 @@ public class Problema_29 extends Print {
 int tiradas = 1,conta = 0, dado1 = 7, dado2 = 7,veces,total;
 	System.out.println("Ingrese la cantidad de veces que desea tirar los dados : ");
 	veces = Integer.parseInt(read());
-System.out.println("ingrese la probabilidad que desea calcular (ejem. ambos sumen 10) :");
+System.out.println("Ingrese la probabilidad que desea calcular (ejem. ambos sumen 10) :");
 total = Integer.parseInt(read());
 	while(tiradas++ <= veces){
 		dado1 *= Math.random();

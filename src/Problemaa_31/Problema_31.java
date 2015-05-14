@@ -1,10 +1,15 @@
 
 package Problemaa_31;
 import java.io.*; 
+
 /**
- *
- * @author Crazy
+ * @since 12/04/2015
+ * @author Albert Alvarez
+ * @description:
+ * Hacer programa donde se introduscan numeros por teclado y mediante un menu,
+ * calcule su suma, su resta, su multiplicacion o su division.
  */
+
 public class Problema_31 {
 
 public static void main (String var[]) throws IOException { 
